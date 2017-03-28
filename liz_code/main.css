@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 12px;
+}
+
+.header_content {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #ffcf9f;
+    padding-bottom: 48px;
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+}
+
+.foot_content {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1   {
+    color: #5d5280; 
+    font-family: calibri; 
+    font-size: 400%;
+}
+
+h2   {
+    color: #5d5280; 
+    font-family: calibri; 
+    font-size: 130%;
+}
+
+h3   {
+    color: #5d5280; 
+    font-family: calibri; 
+    font-size: 200%;
+}
+
+h4   {
+    color: #5d5280; 
+    font-family: calibri; 
+    font-size: 200%;
+    margin-left: 110px;
+}
+
+p {
+    width: 1024px;
+    margin-left: 110px;
+    color: #5d5280; 
+    font-family: calibri; 
+}
+
+.navigation_bar {
+    
+    height: 40px;
+    background: #5d5280;
+}
+
+.navigation_bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_bar ul li {
+    list-style: none;
+}
+
+.navigation_bar ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding: 10px 64px;
+    color: white;
+    font-family: calibri;
+}
+
+.navigation_bar ul li a:hover {
+    color: lightgray;
+}
+
+.header_break {
+    width: 100%;
+    height: 0;
+    border-bottom: 2px solid #5d5280;
+}
+
+.buttons {
+    text-align: center;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.buttons button{
+    background-color: #5d5280; 
+    color: white; 
+    font-family: calibri; 
+    padding: 40px 42px; 
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.buttons button:hover{
+    color: lightgray;
+}
